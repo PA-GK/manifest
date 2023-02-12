@@ -28,4 +28,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <remove-project name="AOSPA/android_art" />
+  <project path="art" name="PA-GK/android_art" remote="aospa" />
+
 </manifest>
