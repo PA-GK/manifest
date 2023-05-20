@@ -34,4 +34,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <remove-project name="android_vendor_google_pixel" />
+  <project path="vendor/google/pixel" name="pa-gk/android_vendor_google_pixel" remote="gitlab" revision="topaz" />
+
 </manifest>
