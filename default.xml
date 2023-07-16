@@ -50,7 +50,7 @@
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
-  <include name="obsolete.xml"/>
   <include name="custom.xml"/>
+  <include name="obsolete.xml"/>
 
 </manifest>

@@ -37,4 +37,7 @@
   <remove-project name="android_vendor_google_pixel" />
   <project path="vendor/google/pixel" name="pa-gk/android_vendor_google_pixel" remote="gitlab" revision="topaz" />
 
+  <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
+  <project path="packages/apps/Paranoid/SystemUI" name="PA-GK/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
+
 </manifest>
